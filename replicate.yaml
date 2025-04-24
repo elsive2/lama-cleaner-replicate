@@ -1,0 +1,11 @@
+name: your-username/lama-cleaner
+description: "Inpainting with the latest lama-cleaner"
+input:
+  image:
+    type: image
+    description: "Original image"
+  mask:
+    type: image
+    description: "Mask image"
+output:
+  type: image
